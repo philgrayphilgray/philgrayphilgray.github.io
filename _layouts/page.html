@@ -10,5 +10,26 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-
+{% for post in site.posts %}
+          {% if post.categories contains {{page.title}} %}
+          
+		  <div class="well">
+		  <table class="table">
+		  <thead>
+		  <tr>
+		  <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		  <span class="pull-right">
+		  {{ post.date | date: "%b %-d, %Y" }}
+		  </span>
+		  </tr>
+		  </thead>
+		 <tbody>
+		 <tr><td>{{ post.content }}</td></tr>
+		 
+		 </tbody>
+		 </table> 
+		  </div>
+		 
+          {% endif %}
+        {% endfor %}
 </div>
