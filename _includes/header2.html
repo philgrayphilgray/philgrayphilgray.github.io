@@ -1,0 +1,30 @@
+<!-- Fly-in navbar -->
+<div class="navbar navbar-inverse navbar-static-top" id="nav">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-togagle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+	  
+      <div class="collapse navbar-collapse">
+	  
+        <ul class="nav navbar-nav">
+        {% for page in site.pages %}
+          {% if page.title %}
+          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+                        <!-- Search text box -->
+                <input id="search_input" data-toggle="dropdown" type="text" class="form-control" placeholder="Search" autofocus="autofocus" autocomplete="off" onkeyup="checkTextField();" />
+                <!-- Search results styled as a dropdown menu -->
+                <ul id="search_results" class="dropdown-menu" role="menu">
+                </ul>
+            </div>
+		</ul>
+		
+      </div><!--/.nav-collapse -->
+    </div><!--/.container -->
+</div><!--/.navbar -->

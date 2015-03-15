@@ -14,10 +14,20 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$background-color: rgba(127, 126, 205, 0);
+$brand-color:     black;
 
-$grey-color:       #828282;
+$seahorse1-color: #7F7ECC;
+$seahorse2-color: #535399;
+$seahorse3-color: #B8DCFF;
+$seahorse4-color: #FFD7B0;
+$seahorse5-color: #CCB7AB;
+$seahorse6-color: #D0E4F7;
+
+
+$footer-bg: url(/img/skyseahorses.png) no-repeat center fixed;
+
+$grey-color:     black;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 

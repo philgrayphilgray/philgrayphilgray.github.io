@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
+{% include head.html %}
   <body>
-    
-  {% include header.html %}
-		 
-    <div class="page-content">  
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+{% include header.html %}  
+<div class="panel-cover"></div>     
+<div class="panel panel-prof">
+<div class="wrapper">
+	<div class="row">
+	<div class="col-xs-4"><img src="/img/prof2.png" alt="" class="img-circle img-responsive prof-pic">
+	</div>
+	<div class="prologue col-xs-8 col">
+<blockquote><h3>cheers</h3><p>To failing, to allowing illusions to run wild, to creating fake dreams, to the currency of stories.</p></blockquote>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="page-content">
+	<div class="wrapper">{{ content }}</div>
+</div>
    {% include footer.html %}
-
-  </body>
-
+   </body>
 </html>
