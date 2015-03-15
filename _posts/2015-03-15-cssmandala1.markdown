@@ -5,7 +5,7 @@ date:   2015-03-15
 categories: graphic
 tags: mandala, css
 ---
-
+<style>
 .mandala{
   position: relative;
   margin: auto;
@@ -430,7 +430,7 @@ background-color: transparent;
    to{left: -100%;}
  }
 
-
+</style>
 <div class="mandala">
   <div class="heavens">
     <div class="sun"></div>
