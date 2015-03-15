@@ -4,4 +4,4 @@ title: bio
 permalink: /bio/
 ---
 
-I was born on a Saturday, early in the morning.
+<blockquote>I was born on a Saturday, early in the morning.</blockquote>
