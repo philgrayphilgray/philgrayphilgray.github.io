@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Flora Flora: A Selection of Songs I Recorded in Between 2006-2012"
+title:  "Flora Flora: A Selection of Songs Written By Phil Gray in Between 2006-2012"
 date:   2015-03-15
 categories: audio
 ---
