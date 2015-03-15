@@ -3,6 +3,12 @@
   <script src="/js/search.js"></script>
   <script src="/js/snap.svg-min.js"></script>
   
-  <script>$('img').load(function(){
+  <script>
+  $(document).ready(function(){
+  var $img = $('img'), 
+  $img.load(function(){
   $(this).fadeIn('fast');
-  });</script>
+  }); 
+  });
+  </script>
+ 
