@@ -253,12 +253,14 @@ background-color: white;
  *home page
  */
   
+  
+.wrapper-home{
+}  
 .panel-cover {
 
 height: 250px;
 max-height: 250px;
  background: url(/img/seahorses.jpg) no-repeat center fixed;
- background-color: black;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -268,8 +270,6 @@ max-height: 250px;
  }
  
 .panel-prof {
-background-color: black;
-margin: -20px 0;
 padding-top: 20px;
 background-color: rgba(0, 0, 0, .9);
 position: relative;
