@@ -257,6 +257,7 @@ background-color: white;
 
 height: 350px;
  background: url(/img/seahorses.jpg) no-repeat center fixed;
+ background-color: black;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -273,9 +274,13 @@ position: relative;
 } 
 .prof-pic {
 border: 5px solid white;
+   vertical-align: middle;
+    display: inline-block;
 } 
 
 .prologue blockquote {
 color: white;
+   vertical-align: middle;
+    display: inline-block;
 margin: 12% 0;
 } 
