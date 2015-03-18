@@ -1,11 +1,8 @@
 <header class="site-header">
-
-
 <div class="navbar navbar-inverse navbar-static-top">
 <div class="container">
 <div class="navbar-header">
 <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 <div class="sr-only">Toggle Navigation</div>
 <span class="icon-bar"></span>
@@ -13,7 +10,6 @@
 <span class="icon-bar"></span>
 </button>
 </div>
-
 <div class="trigger">
 <div class="nav navbar-nav navbar-form dropdown">
                 <!-- Search text box -->
@@ -23,7 +19,6 @@
                 </ul>
             </div>
 <ul class="nav navbar-nav navbar-right navbar-collapse collapse">
-
         {% for page in site.pages %}
           {% if page.title %}
           <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
@@ -33,10 +28,4 @@
  </div>
 </div>
 </div>
-
-
-
-
-
-
 </header>

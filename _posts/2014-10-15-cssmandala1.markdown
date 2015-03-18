@@ -1,12 +1,21 @@
+---
+layout: post
+title:  "CSS Mandala #1"
+date:   2014-10-15
+categories: graphic
+tags: mandala, css
+---
+<style>
+
 .mandala{
   position: relative;
   margin: auto;
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   background-color: #dddddd;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  border-radius: 300px;
   overflow: hidden;
 }
 
@@ -52,7 +61,7 @@ content: " ";
     position: relative;
 top:0;left:0;
     width:100%;
-    height:36px;
+    height:20px;
     background: linear-gradient(transparent 0, transparent 0), linear-gradient(135deg, SeaGreen 50.33%, transparent 33.33%) 0 0, linear-gradient(45deg, SeaGreen 50.33%, SeaGreen 33.33%) 0 0;
   
     background: -webkit-linear-gradient(transparent 0, transparent 0), -webkit-linear-gradient(135deg, SeaGreen 50%, transparent 33.33%) 0 0, SeaGreen -webkit-linear-gradient(45deg, SeaGreen 50%, DarkOliveGreen 33.33%) 0 0;
@@ -93,10 +102,10 @@ top:0;left:0;
  .sun{
  position: absolute;
   background-color: yellow;
-  width: 40px;
-  height: 40px;
-  -webkit-border-radius: 50px;
-   border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  -webkit-border-radius: 25px;
+   border-radius: 25px;
    z-index: 1;
    top: 0;
    left: 0;
@@ -109,8 +118,8 @@ top:0;left:0;
 .star{
  position: absolute;
   background-color: white;
-  width: 5px;
-  height: 8px;
+  width: 3px;
+  height: 6px;
   -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
    border-radius: 10px;
@@ -120,8 +129,8 @@ top:0;left:0;
 .bigdipper{
   position: absolute;
   
-  top: -20px;
-  left: -200px;
+  top: -10px;
+  left: -120px;
   -webkit-animation: starcurtain 24s linear 18s infinite;
   -moz-animation: starcurtain 24s linear 18s infinite;
   animation: starcurtain 24s linear 18s infinite;
@@ -162,7 +171,7 @@ top:0;left:0;
   width: 100px;
   height: 50px;
   left: 50px;
-  top: 50px;
+  top: 20px;
   -webkit-animation: wind 20s linear 0s infinite;
   -moz-animation: wind 20s linear 0s infinite;
   animation: wind 20s linear 0s infinite;
@@ -421,3 +430,57 @@ background-color: transparent;
    from{left: 50%;}
    to{left: -100%;}
  }
+</style>
+<div class="wrapper">
+<div class="mandala">
+  <div class="heavens">
+    <div class="sun"></div>
+    <div class="bigdipper">
+      <div class="star s1"></div>
+     <div class="star s2"></div>
+     <div class="star s3"></div>
+    <div class="star s4"></div>
+    <div class="star s5"></div>
+     <div class="star s6"></div>
+     <div class="star s7"></div>
+      </div>
+  </div>
+<div class="sky">
+  <div class="cloud">
+    <div class="cloud_left"></div>
+    <div class="cloud_middle"></div>
+    <div class="cloud_right"></div>
+  </div>
+    <div class="cloud c1">
+    <div class="cloud_left"></div>
+    <div class="cloud_middle"></div>
+    <div class="cloud_right"></div>
+  </div>
+    <div class="cloud c2">
+    <div class="cloud_left"></div>
+    <div class="cloud_middle"></div>
+    <div class="cloud_right"></div>
+  </div>
+  <div class="cloud c3">
+    <div class="cloud_left"></div>
+    <div class="cloud_middle"></div>
+    <div class="cloud_right"></div>
+  </div>
+</div>
+<div class="earth"></div>
+  <div class="sea">
+    <div class="whale">
+      <div class="whale_body">
+        <div class="whale_head">
+        <div class="whale_eye">
+          <div class="whale_pupil"></div>
+        </div>
+         </div>
+      </div>
+      <div class="whale_tail"></div>
+    </div>
+  </div>
+  <div class="stone"></div>
+  <div class="underworld"></div>
+</div>
+</div>

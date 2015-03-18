@@ -1,4 +1,26 @@
 ---
 layout: home
 ---
-{% include all.html %}
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+<p class="author">
+	<span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+</p>
+<div class="content">
+	{{ post.content }}
+</div>
+{% endfor %}
+<!-- Pagination links -->
+<div class="pagination">
+{% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path }}" class="next">Next</a>
+{% endif %}
+</div>
+<script>
+$('.page-content').jscroll({
+loadingHtml: '<img src="/img/loading.gif" alt="Loading" /> Loading...',
+nextSelector: 'a.next:last', 
+contentSelector: '.page-content'
+});
+</script> 

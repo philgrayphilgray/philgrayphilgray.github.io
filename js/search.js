@@ -6,18 +6,15 @@
             searchJSON = e;
         });
     }
-
     function doSearch(e)
     {
         results = [];
-
         if (e != "")
         {
             $.each(searchJSON, function(t, n) {
                 var r = n.title, i = n.title.toLowerCase(), s = n.href, o = n.date;
                 i.indexOf(e)!==-1 && results.push([r, s, o])
             });
-
             printResults();
         }
         else
@@ -27,13 +24,10 @@
             printResults();
         }
     }
-
     function printResults()
     {
         var e = $("#search_results");
-
         e.html("");
-
         e.html(function() {
             if (results.length == 0)
             {
@@ -47,7 +41,6 @@
             }
         });
     }
-
     // Show the dropdown menu as long as there are characters in the text field
     function checkTextField()
     {
@@ -61,12 +54,10 @@
             $('#search_results').hide();
         }
     }
-
     // Hide the dropdown menu if there is a left mouse click outside of it
     $(document).mouseup(function (e)
     {
         var container = $("#search_results");
-
         // if the target of the click isn't the
         // container nor a descendant of the container
         if (!container.is(e.target) && container.has(e.target).length === 0)
@@ -74,7 +65,6 @@
             container.hide();
         }
     });
-
     $(document).ready(function() {
         // Create the search index on page load
 		getSearchJSON();
@@ -82,7 +72,6 @@
         $("#search_input").keyup(function() {
             // Make search inputs are case insensitive
             var e = $(this).val().toLowerCase();
-
             // Do the actual search
             doSearch(e);
         });
