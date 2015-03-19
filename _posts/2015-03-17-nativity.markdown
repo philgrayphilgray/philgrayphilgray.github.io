@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Nativity"
+date:   2015-03-17
+categories: graphic
+---
+
+<img src="/img/nativity.jpg" alt="user manual" class="img-responsive img-center">

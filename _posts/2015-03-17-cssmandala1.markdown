@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "CSS Mandala #1"
-date:   2014-10-15
+title:  "CSS Mandala"
+date:   2015-03-18
 categories: graphic
 tags: mandala, css
 ---

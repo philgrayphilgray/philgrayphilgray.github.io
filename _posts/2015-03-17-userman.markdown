@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "User Manual"
+date:   2015-03-17
+categories: graphic
+---
+
+<img src="/img/edds_man.png" alt="user manual" class="img-responsive img-center">
