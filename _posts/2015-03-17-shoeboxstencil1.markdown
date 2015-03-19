@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Shoebox Stencil"
-date: 2013-08-17
+date: 2015-03-17
 categories: graphic
 tags: stencil, paint, t-shirts
 ---
