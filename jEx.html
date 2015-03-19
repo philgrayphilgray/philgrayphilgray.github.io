@@ -47,13 +47,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, exercitation
 <script>
 /** fake data **/
 
+//get data for
+//data.labels ...political party
+//data.datasets.data ...vote breakdown.party.[party].[vote]
+
+
+
+
 var data= {
-labels: ["January", "Februray", "March", "April"],
+labels: [],
 datasets: [
 {
 label: "My first dataset", 
-fillColor: "rgba(110, 110, 110, .2)",
-strokeColor: "rgba(110, 110, 110, 1)",
+fillColor: "rgba(110, 10, 110, .2)",
+strokeColor: "rgba(210, 110, 110, 1)",
 pointColor: "rgba(110, 110, 110, 1)", 
 pointStrokeColor: "#fff",
 pointHighlightFill: "#fff",
@@ -62,6 +69,21 @@ data: [65, 59, 80, 55]
 }
 ]
 };
+
+
+
+
+var votes = $.ajax({
+  url: "http://congress.api.sunlightfoundation.com/votes?year=2015&apikey=b5115cfa066c40169cf1da03e669e40d",
+  beforeSend: function( xhr ) {
+    xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
+  }
+})
+  .done(function( data ) {
+    if ( console && console.log ) {
+      console.log( "Sample of data:", data.slice( 0, 100 ) );
+    }
+  });
 
 /**global options **/
 var options= Chart.defaults.global;
