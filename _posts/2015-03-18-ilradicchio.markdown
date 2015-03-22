@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mobile-First Site for Ilradicchio Built with WordPress and Umami Theme"
+title:  "Mobile-First Site Built with WordPress and Umami Theme"
 date:   2015-03-18
 categories: graphic
 ---
