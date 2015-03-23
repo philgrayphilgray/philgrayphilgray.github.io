@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Mur Gif"
+date:   2015-03-17
+categories: graphic
+---
+
+<img src="/img/mur1.gif" alt="animated cat" class="img-responsive img-center">

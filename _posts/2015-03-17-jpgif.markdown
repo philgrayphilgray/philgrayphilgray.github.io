@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "JP Gif"
+date:   2015-03-18
+categories: graphic
+---
+
+<img src="/img/jpanimation.gif" alt="JP drinking from a goatskin bottle" class="img-responsive img-center">
