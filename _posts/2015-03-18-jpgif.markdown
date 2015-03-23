@@ -5,4 +5,4 @@ date:   2015-03-18
 categories: graphic
 ---
 
-<img src="/img/jpanimation.gif" alt="JP drinking from a goatskin bottle" class="img-responsive img-center">
+<img src="/img/JPanimation.gif" alt="JP drinking from a goatskin bottle" class="img-responsive img-center">
