@@ -2,7 +2,7 @@
 title: philgrayphilgray
 email: philgrayphilgray@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Phil Gray is a writer, musician, and web developer.
+  Phil Gray is a writer, musician, and digital content developer.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://philgrayphilgray.com" # the base hostname & protocol for your site
 paginate: 3
