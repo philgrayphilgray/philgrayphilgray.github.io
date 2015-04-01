@@ -4,5 +4,6 @@ title:  "Mur Gif"
 date:   2015-03-17
 categories: graphic
 ---
-
+<a href="/img/MUR1.gif" data-lightbox="gal-img" data-title="Mur Gif">
 <img src="/img/MUR1.gif" alt="animated cat" class="img-responsive img-center">
+</a>

@@ -4,5 +4,6 @@ title:  "Nativity"
 date:   2015-03-17
 categories: graphic
 ---
-
+<a href="/img/nativity.jpg" data-lightbox="gal-img" data-title="Nativity">
 <img src="/img/nativity.jpg" alt="user manual" class="img-responsive img-center">
+</a>
