@@ -4,6 +4,6 @@ title:  "JP Gif"
 date:   2015-03-18
 categories: graphic
 ---
-<a href="/img/JPanimation.gif" data-lightbox="gal-img" data-title="JP Gif">
-<img src="/img/JPanimation.gif" alt="JP drinking from a goatskin bottle" class="img-responsive img-center">
+<a href="/img/JPanimation.gif" class="swipebox" title="JP Gif">
+<img src="/img/JPanimation.gif" alt="JP drinking from a goatskin bottle">
 </a>

@@ -4,6 +4,6 @@ title:  "User Manual"
 date:   2015-03-17
 categories: graphic
 ---
-<a href="/img/edds_man.png" data-lightbox="gal-img" data-title="User Manual">
+<a href="/img/edds_man.png" class="swipebox" title="User Manual">
 <img src="/img/edds_man.png" alt="user manual" class="img-responsive img-center">
 </a>

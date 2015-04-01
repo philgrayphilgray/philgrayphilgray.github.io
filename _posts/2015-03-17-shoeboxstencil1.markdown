@@ -6,6 +6,6 @@ categories: graphic
 tags: stencil, paint, t-shirts
 ---
 
-<a href="/img/shoeboxstencil2.png" data-lightbox="gal-img" data-title="Shoebox Stencil">
+<a href="/img/shoeboxstencil2.png" class="swipebox" title="Shoebox Stencil">
 <img src="/img/shoeboxstencil2.png" alt="Shoebox Stencil" class="img-responsive">
 </a>

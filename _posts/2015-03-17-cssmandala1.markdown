@@ -6,5 +6,5 @@ categories: graphic
 tags: mandala, css
 ---
 <div class="embed-responsive embed-responsive-4by3">
-<iframe width="400" height="300" src="/mandala1.html#mandala1" frameborder="0" allowfullscreen></iframe>
+<iframe width="400" height="300" src="/mandala1.html" frameborder="0"></iframe>
 </div>
