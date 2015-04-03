@@ -139,7 +139,7 @@ margin-bottom: 0;
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0;
 }
 .page-heading {
     font-size: 20px;
@@ -204,7 +204,15 @@ background-color: white;
   
   
 .wrapper-home{
-}  
+.jumbotron {
+background-color: rgba(0, 0, 0, .9);
+}
+}
+
+.page-content .jumbotron{
+background-color: rgba(0, 0, 0, 0);
+}
+  
 .panel-cover {
 height: 250px;
  background: url(/img/seahorses3.jpg) no-repeat center fixed;
@@ -214,22 +222,18 @@ height: 250px;
   background-size: cover;
   background-position: 0 -20px;
  z-index: 1;
+
  }
  
-.panel-prof {
-padding-top: 20px;
-background-color: rgba(0, 0, 0, .9);
-position: relative;
-} 
+ 
 .prof-pic {
-border: 5px solid white;
    vertical-align: middle;
+   border: 2px solid white;
+   
 } 
 .prologue blockquote {
 color: white;
    vertical-align: middle;
-    display: inline-block;
-margin: 15% 0;
 } 
 
 .content {
@@ -240,7 +244,19 @@ margin: 0 auto;
 float: none;
 margin: 0 auto;
 }
-
-
 }
-
+.flexbox-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+.row {
+    width: auto;
+}
+}
