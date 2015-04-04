@@ -19,11 +19,9 @@
                 </ul>
             </div>
 <ul class="nav navbar-nav navbar-right navbar-collapse collapse">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+{% for post in site.categories %}
+	<li><a href="/{{post[0] | prepend: site.baseurl }}">{{ post[0] }} <span class="badge"> {{post[1] | size }}</span></a></li>
+{% endfor %}
 </ul>
  </div>
 </div>

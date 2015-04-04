@@ -202,15 +202,16 @@ background-color: white;
  *home page
  */
   
-  
 .wrapper-home{
 .jumbotron {
 background-color: rgba(0, 0, 0, .9);
+margin-bottom: 0;
 }
 }
 
 .page-content .jumbotron{
-background-color: rgba(0, 0, 0, 0);
+background-color: rgba(0, 0, 0, .01);
+margin-bottom: 0;
 }
   
 .panel-cover {
