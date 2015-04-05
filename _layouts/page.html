@@ -15,9 +15,9 @@ layout: default
 		  <table class="table">
 		  <thead>
 		  <tr>
-		  <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		  <a class="page-link" href="{{ post.url | prepend: site.baseurl }}"><p class="small-caps">{{ post.title }}</p></a>
 		  <span class="pull-right">
-		  {{ post.date | date: "%b %-d, %Y" }}
+		  {{ post.date | date: "%-m/%-d/%Y"}}
 		  </span>
 		  </tr>
 		  </thead>

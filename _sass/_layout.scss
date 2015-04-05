@@ -159,6 +159,11 @@ margin-bottom: 0;
     display: block;
     font-size: 24px;
 }
+
+.small-caps {
+    font-variant: small-caps;
+}
+
 /**
  * Posts
  */
@@ -202,10 +207,15 @@ background-color: white;
  *home page
  */
   
-.wrapper-home{
+  
+.jumbotron {
+  padding: 0 0;
+}
+
+
+#bg{
 .jumbotron {
 background-color: rgba(0, 0, 0, .9);
-margin-bottom: 0;
 }
 }
 
