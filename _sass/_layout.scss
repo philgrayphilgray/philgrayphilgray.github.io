@@ -298,6 +298,8 @@ fill: white;
  
  #intro { 
 	background: url(/img/seahorses2.png) 50% 0 fixed;
+	background-color: rgba(0, 0, 0, .9);
+	background-repeat: repeat-x;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -309,7 +311,7 @@ fill: white;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     padding: 180px 0;
   @media screen and (min-width: 768px) {
-      padding: 210px 0;
+      padding: 200px 0;
 	background: url(/img/seahorses_large2.png) 50% 0 fixed;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -324,7 +326,7 @@ fill: white;
     width: 100%; 
     position: relative; 
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    padding: 0 0;
+    padding: 20px 0;
 }
 #about { 
     height: auto;
