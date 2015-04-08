@@ -1,0 +1,210 @@
+<!doctype html>
+{% include head.html %}
+  
+  <style>
+  .divider {
+    height:50px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+.bg-1 {
+	background: url('/img/seahorses.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+  
+.bg-2 {
+	background: url('/img/seahorses.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+	background: url('/img/seahorses.jpg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+#footer {
+    height: 60px;
+    background-color:#585858;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+.jumbotron {
+  padding: 0 0;
+}
+
+
+.lead{
+background-color: rgba(0, 0, 0, .9);
+}
+}
+
+.page-content {
+background-color: rgba(0, 0, 0, .01);
+margin-bottom: 0;
+}
+
+ 
+ 
+.prof-pic {
+   vertical-align: middle;
+   border: 2px solid white;
+   
+} 
+.prologue blockquote {
+color: white;
+   vertical-align: middle;
+} 
+
+.content {
+.img-responsive {
+margin: 0 auto;
+}
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+}
+.flexbox-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+.row {
+    width: auto;
+}
+}
+
+.navbar-brand {
+padding: 5px 15px;
+&:hover path{
+fill: white;
+}
+}
+
+
+
+  </style>
+  <script>
+  /**
+ * Author: Heather Corey
+ * jQuery Simple Parallax Plugin
+ *
+ */
+ 
+(function($) {
+ 
+    $.fn.parallax = function(options) {
+ 
+        var windowHeight = $(window).height();
+ 
+        // Establish default settings
+        var settings = $.extend({
+            speed        : 0.15
+        }, options);
+ 
+        // Iterate over each object in collection
+        return this.each( function() {
+ 
+        	// Save a reference to the element
+        	var $this = $(this);
+ 
+        	// Set up Scroll Handler
+        	$(document).scroll(function(){
+ 
+    		        var scrollTop = $(window).scrollTop();
+            	        var offset = $this.offset().top;
+            	        var height = $this.outerHeight();
+ 
+    		// Check if above or below viewport
+			if (offset + height <= scrollTop || offset >= scrollTop + windowHeight) {
+				return;
+			}
+ 
+			var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
+ 
+                 // Apply the Y Background Position to Set the Parallax Effect
+    			$this.css('background-position', 'center ' + yBgPosition + 'px');
+                
+        	});
+        });
+    }
+}(jQuery));
+
+$('.bg-1,.bg-3').parallax({
+	speed :	0.15
+});
+
+$('.bg-2').parallax({
+	speed :	0.25
+});
+  
+  </script>
+  
+  <body>
+  {% include header.html %}  
+
+<!--parallax 1 -->
+<section class="bg-1 text-center">
+     <h1 class="">Bootstrap Parallax</h1>
+
+    <p class="lead">Add Some Motion</p>
+</section>
+<!--/parallax 1-->
+
+
+<div class="lead wrapper">
+	<div class="row">
+	<div class="flexbox-container">
+	<div class="col-xs-4"><img src="/img/prof2.png" alt="phil gray" class="img-circle img-responsive prof-pic">
+	</div>
+	<div class="prologue col-xs-8">
+<blockquote><p>philgrayphilgray.com</p></blockquote>
+	</div>
+	</div>
+	</div>
+	</div>
+
+<!--/container-->
+<section class="bg-2">
+    <div class="col-sm-10 col-sm-offset-1 text-center">
+         <h1 class="">Keep Going</h1>
+
+    </div>
+</section>
+<div class="divider"></div>
+<div class="container page-content">
+	{{ content }}
+</div>
+<!--/container-->
+<div class="divider"></div>
+<!--parallax 2 -->
+<section class="bg-3 text-center">
+     <h1 class="">Bootstrap Parallax</h1>
+
+    <p class="lead"></p>
+</section>
+
+   {% include footer.html %}
+   </body>
+   </html>

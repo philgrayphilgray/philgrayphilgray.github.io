@@ -23,4 +23,37 @@ loadingHtml: '<img src="/img/loading.gif" alt="Loading" /> Loading...',
 nextSelector: 'a.next:last', 
 contentSelector: '.page-content'
 });
+
+
+$(document).ready(function(){
+   // cache the window object
+   var $window = $(window),
+   $winWidth= $window.width(),
+   $scroll = $('section[data-type="background"]');
+   // window resize
+
+   $window.resize(function(){
+
+			   if($(this).width() != $winWidth){
+      $winWidth = $(this).width();
+   }	
+		});
+//scroll function		
+   $scroll.each(function(){
+      $(window).scroll(function() {                           
+		var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+		var yPosL = -($window.scrollTop() + ($window.scrollTop() / .6) / $scroll.data('speed')); 
+        // background position
+        var coords = '50% '+ yPos + 'px';
+		        var coordsL = '50% '+ yPosL + 'px';
+        // move the background
+ if($winWidth < 900){
+ $scroll.css({ backgroundPosition: coords });   
+ }
+ else {
+  $scroll.css({ backgroundPosition: coordsL }); 
+ }
+      }); // end window scroll
+   });  // end section function
+}); // close out script
 </script> 
