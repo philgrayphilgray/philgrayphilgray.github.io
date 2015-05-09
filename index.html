@@ -4,8 +4,7 @@ layout: home
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 		  <header class="post-header">
-	<a class="page-link" href="{{ post.url | prepend: site.baseurl }}"><h2><h1 class="post-title small-caps">{{ post.title }}</h1></a>
-    <p class="post-meta">{{ post.date | date: "%-m/%-d/%Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+	<a class="page-link" href="{{ post.url | prepend: site.baseurl }}"><h1 class="post-title small-caps">{{ post.title }}</h1></a>
   </header>
   <article class="post-content">
     {{ post.content }}
@@ -29,7 +28,13 @@ $(document).ready(function(){
    // cache the window object
    var $window = $(window),
    $winWidth= $window.width(),
-   $scroll = $('section[data-type="background"]');
+   $scroll = $('section[data-type="background"]'),
+   curPos = $(window).scrollTop(),
+   offsetTop= $scroll.offset().top,
+   halfScroll= (($scroll.height() + 80)/2),
+   offsetHalf = halfScroll + offsetTop;
+   
+
    // window resize
 
    $window.resize(function(){
