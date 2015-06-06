@@ -161,6 +161,7 @@ margin-bottom: 0;
 
 .small-caps {
     font-variant: small-caps;
+	margin-bottom: 0px !important;
 }
 
 /**
@@ -229,7 +230,7 @@ section {
 	background-color: transparent;
 
 .jumbotron {
-background-color: rgba(0, 0, 0, .01);
+lighten($seahorse2-color, 79%);
 }
 }
 
