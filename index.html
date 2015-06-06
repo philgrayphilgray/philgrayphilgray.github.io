@@ -16,12 +16,13 @@ layout: home
 	<a href="{{ paginator.next_page_path }}" class="next">Next</a>
 {% endif %}
 </div>
+
 <script>
-$('.page-content').jscroll({
+	$('.page-content').jscroll({
 loadingHtml: '<img src="/img/loading.gif" alt="Loading" /> Loading...',
 nextSelector: 'a.next:last', 
 contentSelector: '.page-content'
-});
+}).fadeIn('slow', function(){});
 
 
 $(document).ready(function(){
@@ -33,8 +34,6 @@ $(document).ready(function(){
    offsetTop= $scroll.offset().top,
    halfScroll= (($scroll.height() + 80)/2),
    offsetHalf = halfScroll + offsetTop;
-   
-
    // window resize
 
    $window.resize(function(){
@@ -61,4 +60,4 @@ $(document).ready(function(){
       }); // end window scroll
    });  // end section function
 }); // close out script
-</script> 
+</script>

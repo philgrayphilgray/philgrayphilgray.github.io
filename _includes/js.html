@@ -32,4 +32,24 @@ $( '.swipebox' ).swipebox();
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
-</script>
+
+	var previousScroll = 0,
+    headerOrgOffset = $('.navbar-header').height();
+$('.navbar').height($('.navbar-header').height());
+
+$(window).scroll(function () {
+    var currentScroll = $(this).scrollTop();
+    if (currentScroll > headerOrgOffset) {
+        if (currentScroll > previousScroll) {
+            $('.navbar').fadeOut();
+        } else {
+            $('.navbar').fadeIn();
+        }
+    } else {
+            $('.navbar').fadeIn();
+    }
+    previousScroll = currentScroll;
+});
+	
+
+</script> 

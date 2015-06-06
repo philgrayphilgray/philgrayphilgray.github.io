@@ -3,7 +3,6 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    min-height: 56px;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -170,9 +169,10 @@ margin-bottom: 0;
  
 .post{
 background-color: white;
+	 margin-top: $spacing-unit;
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 } 
 .post-header {
-    margin-bottom: $spacing-unit;
 }
 .post-title {
     font-size: 42px;
@@ -229,7 +229,7 @@ section {
 	background-color: transparent;
 
 .jumbotron {
-background-color: rgba(0, 0, 0, .9);
+background-color: rgba(0, 0, 0, .01);
 }
 }
 
