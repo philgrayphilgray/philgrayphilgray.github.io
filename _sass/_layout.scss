@@ -213,6 +213,9 @@ background-color: white;
   padding: 0 0;
 }
 
+
+
+
 section {
     height:500px;
     padding-top:50px;
@@ -220,10 +223,13 @@ section {
     overflow:auto;
 	background-color: transparent;
 }
+
+
 .page-content .jumbotron{
 background-color: rgba(0, 0, 0, .01);
 margin-bottom: 0;
-} 
+}
+  
 .panel-cover {
 height: 250px;
 
@@ -294,13 +300,12 @@ fill: white;
  
  
  #intro { 
-	background: url(/img/fullsky2.jpg) no-repeat center fixed; 
+	background: url(/img/fullsky2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    height: auto;
-	 min-height: 100%;
+    height: auto;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
