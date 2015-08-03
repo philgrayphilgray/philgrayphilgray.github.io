@@ -292,25 +292,16 @@ fill: white;
  
  
  #intro { 
-	background: url(/img/fullsky2.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    height: auto;  
-    margin: 0 auto; 
-    width: 100%; 
-    position: relative; 
+	background: url(/img/fullsky2.jpg) 50% 0 repeat fixed;
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     padding: 180px 0;
 
 	  @media screen and (max-width: 768px) {
-     background: url(/img/fullskymobile.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-height: 100%;
+     background: url(/img/fullskymobile.jpg) 50% 0 repeat fixed;
   }
 }
 #home { 
