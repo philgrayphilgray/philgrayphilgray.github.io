@@ -3,6 +3,7 @@ layout: post
 title:  "Mur Gif"
 date:   2015-03-17
 categories: graphic
+quote: "another day"
 ---
 <a href="/img/MUR1.gif" class="swipebox" title="Mur Gif">
 <img src="/img/MUR1.gif" alt="animated cat" class="img-responsive img-center">

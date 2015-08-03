@@ -214,13 +214,7 @@ background-color: white;
 }
 
 
-#bg{
-background: url('/img/seahorses.jpg') no-repeat center center fixed;
-    color:#fff;
-    background-size:cover;
-	height: 500px;
-	z-index: 100;
-}
+
 
 section {
     height:500px;
@@ -230,7 +224,6 @@ section {
 	background-color: transparent;
 
 .jumbotron {
-lighten($seahorse2-color, 79%);
 }
 }
 
@@ -242,7 +235,7 @@ margin-bottom: 0;
   
 .panel-cover {
 height: 250px;
- background: url(/img/seahorses3.jpg) no-repeat center fixed;
+
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -256,12 +249,24 @@ height: 250px;
 .prof-pic {
    vertical-align: middle;
    border: 2px solid white;
+	min-height: 100px;
+	min-width: 100px;
+	    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
    
 } 
 .prologue blockquote {
-color: white;
+display: relative;
+	margin-top: 10%;
+	color: white;
    vertical-align: middle;
+	word-wrap: break-word;
 } 
+
+@include media-query($on-palm) {
+   .prologue blockquote {
+   border: none;
+    }
+}
 
 .content {
 .img-responsive {
@@ -298,10 +303,8 @@ fill: white;
  
  
  #intro { 
-	background: url(/img/seahorses2.png) 50% 0 fixed;
-	background-color: rgba(0, 0, 0, .9);
-	background-repeat: repeat-x;
-	-webkit-background-size: cover;
+	background: url(/img/fullsky2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -313,11 +316,6 @@ fill: white;
     padding: 180px 0;
   @media screen and (min-width: 768px) {
       padding: 200px 0;
-	background: url(/img/seahorses_large2.png) 50% 0 fixed;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   }
 }
 #home { 

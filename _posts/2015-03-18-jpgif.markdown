@@ -3,6 +3,7 @@ layout: post
 title:  "JP Gif"
 date:   2015-03-18
 categories: graphic
+quote: "Where is Phil???"
 ---
 <a href="/img/JPanimation.gif" class="swipebox" title="JP Gif">
 <img src="/img/JPanimation.gif" alt="JP drinking from a goatskin bottle" class="img img-responsive">
