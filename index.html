@@ -27,37 +27,25 @@ contentSelector: '.page-content'
 
 $(document).ready(function(){
    // cache the window object
-   var $window = $(window),
-   $winWidth= $window.width(),
-   $scroll = $('section[data-type="background"]'),
-   curPos = $(window).scrollTop(),
-   offsetTop= $scroll.offset().top,
-   halfScroll= (($scroll.height() + 80)/2),
-   offsetHalf = halfScroll + offsetTop;
-   // window resize
+   $window = $(window);
 
-   $window.resize(function(){
+   $('section[data-type="background"]').each(function(){
+     // declare the variable to affect the defined data-type
+     var $scroll = $(this);
 
-			   if($(this).width() != $winWidth){
-      $winWidth = $(this).width();
-   }	
-		});
-//scroll function		
-   $scroll.each(function(){
-      $(window).scroll(function() {                           
-		var yPos = -($window.scrollTop() / $scroll.data('speed')); 
-		var yPosL = -($window.scrollTop() + ($window.scrollTop() / .6) / $scroll.data('speed')); 
-        // background position
-        var coords = '50% '+ yPos + 'px';
-		        var coordsL = '50% '+ yPosL + 'px';
-        // move the background
- if($winWidth < 900){
- $scroll.css({ backgroundPosition: coords });   
- }
- else {
-  $scroll.css({ backgroundPosition: coordsL }); 
- }
+      $(window).scroll(function() {
+    // HTML5 proves useful for helping with creating JS functions!
+    // also, negative value because we're scrolling upwards                            
+    var yPos = -($window.scrollTop() / $scroll.data('speed'));
+
+    // background position
+    var coords = '50% '+ yPos + 'px';
+
+    // move the background
+    $scroll.css({ backgroundPosition: coords });   
       }); // end window scroll
    });  // end section function
+
+
 }); // close out script
 </script>
