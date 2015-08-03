@@ -207,10 +207,12 @@ background-color: white;
 /**
  *home page
  */
-   
+  
+  
 .jumbotron {
   padding: 0 0;
 }
+
 section {
     height:500px;
     padding-top:50px;
@@ -292,13 +294,21 @@ fill: white;
  
  
  #intro { 
-	background: url(/img/fullsky2.jpg) 70% 0 repeat fixed;
-    height: 100%;
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
+	background: url(/img/fullsky2.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: auto;
+	 min-height: 100%;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     padding: 180px 0;
+  @media screen and (min-width: 768px) {
+      padding: 200px 0;
+  }
 }
 #home { 
 	background-color: rgba(0, 0, 0, .9);
