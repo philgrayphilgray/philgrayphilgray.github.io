@@ -303,9 +303,7 @@ fill: white;
     position: relative; 
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     padding: 180px 0;
-  @media screen and (min-width: 768px) {
-      padding: 200px 0;
-  }
+
 	  @media screen and (max-width: 768px) {
      background: url(/img/fullskymobile.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
