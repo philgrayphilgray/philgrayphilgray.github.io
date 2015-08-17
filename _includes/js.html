@@ -43,11 +43,15 @@ $(window).scroll(function () {
     if (currentScroll > headerOrgOffset) {
         if (currentScroll > previousScroll) {
             $('.navbar').fadeOut();
+			$('.titletitle').addClass('slideOutDown');
         } else {
             $('.navbar').fadeIn();
+			$('.navbar li').addClass('animated bounce');
+			$('.titletitle').removeClass('slideOutDown').addClass('slideInUp');
         }
     } else {
             $('.navbar').fadeIn();
+			$('.titletitle').removeClass('slideOutDown').addClass('slideInUp');
     }
     previousScroll = currentScroll;
 });

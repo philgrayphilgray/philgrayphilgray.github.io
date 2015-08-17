@@ -322,6 +322,13 @@ fill: white;
   background-size: cover;
   }
 }
+#intro h1.titletitle{
+	margin: 0 auto;
+	color: white;
+	background-color: rgba(0,0,0,.3);
+	box-shadow: 0 10px 50px rgba(0,0,0,.9);
+	width: 250px;
+}
 #home { 
 	background-color: rgba(0, 0, 0, .9);
     height: auto;  
