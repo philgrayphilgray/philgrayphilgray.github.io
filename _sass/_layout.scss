@@ -1,3 +1,8 @@
+//fadeIn when everything loads....also uncomment in js.html
+/* body {
+  display: none;
+} */
+
 /**
  * Site header
  */
@@ -349,3 +354,20 @@ fill: white;
     padding: 10px 0;
 }
 
+/* 
+.scrollup {
+    width: 40px;
+    height: 40px;
+	font-size: 40px;
+	border: 1px solid $grey-color-dark;
+	text-align: center;
+	vertical-align: center;
+	border-radius: 40px;
+	behavior: url(PIE.htc);
+	color: $grey-color-dark;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+ */
