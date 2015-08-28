@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Test
-date: "2015-08-28 18:45:36"
-categories: audio
+date: 2015-08-28T22:45:00.000Z
+categories: graphic
 comments: true
 ---
+testing....
