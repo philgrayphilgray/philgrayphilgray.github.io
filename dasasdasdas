@@ -1,0 +1,527 @@
+[33mcommit 434b29c05422685bd22e9f9f040a2a218be540bd[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sat Aug 29 07:23:47 2015 -0400
+
+    reset
+
+[33mcommit cb5760e38ce20a24fa4195f2507f81638783c0a2[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Fri Aug 28 18:47:59 2015 -0400
+
+    overwrite the codecannon thing
+
+[33mcommit dd5e1e2e534a3d1c30a559e1305215e3975ecd77[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Wed Aug 26 17:35:11 2015 -0400
+
+    switch highlighter back to pygments in config
+
+[33mcommit 97a3ffa411681912d5e9e09458eb6ff46ff4f90c[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Wed Aug 26 16:41:22 2015 -0400
+
+    update gitignore
+
+[33mcommit 47bc165c3e7077d19eebe52ad8dc1788e7196cf4[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 16 20:48:31 2015 -0400
+
+    add grey-color-dark to mobile intro too
+
+[33mcommit bac545c6a6fbf90f5f9800bdedeba80c57a71030[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 16 20:45:59 2015 -0400
+
+    add bg color to intro for img load
+
+[33mcommit be04cf29e6f903d9f385f6e50433409315e8bfc1[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 16 20:34:51 2015 -0400
+
+    add animation css and animate nav li site title, intro prof and blockquote
+
+[33mcommit d184d58d957aaded1656a289b690bbc3bfbb1bd8[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:47:25 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit 7af9bfcde3b0e1a5bb3b1192df1f43df9863aaba[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:45:27 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit 3ec93c6203a0ab512511e1c0d7cf1df29a3fce3a[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:43:59 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit 9c140cd1d3d418763d6e20520d9fa0e79836384c[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:40:49 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit c6fd76ce233655797d22beccc9ccd5cde4e29b81[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:34:23 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit 412c37898ddc83838214737feec9fcec508c2f18[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:32:06 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit b39305429eed4ab47799a276ba537de794bc2cd7[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:17:03 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit 19bd985d8969588a899e9f9ddd1e4431a6933618[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:16:21 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit 7e046267eeb186e9a528081debed3889ce7c604e[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:05:23 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit 1b3b4f3cf578b72da6dc8c453abee55ca66401e9[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:02:53 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit 0f40997a42b6cf7adc6662b66361a1b6fc6e5107[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 23:01:15 2015 -0400
+
+    troubleshoot mobile parallax
+
+[33mcommit b688c654adba9eb8946cd67e84fd50d1f9da7fce[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 22:59:58 2015 -0400
+
+    ...
+
+[33mcommit f69397e3dbd6e644c92099250cb44dfd052902d5[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 22:58:17 2015 -0400
+
+    mobile
+
+[33mcommit 50aafeaf5a69112a451fd3a4bed7137dd421edfa[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 22:47:40 2015 -0400
+
+    revert to to original parallax script
+
+[33mcommit 34fb580229f481a1e8642fc569c7505080149866[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sun Aug 2 21:33:10 2015 -0400
+
+    swap background, font
+
+[33mcommit 0b13aee7d308e227cd45946eee274b4ceccc0d2f[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sat Jun 6 15:25:50 2015 -0400
+
+    Adjust post head margin.
+
+[33mcommit c13fd1789c40f02f5776e15d27d3d2d06ff81207[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Sat Jun 6 15:18:00 2015 -0400
+
+    Add fading fixed nav function, adjust post margins.
+
+[33mcommit 098b0a530dfe26ed03b030c43022590ccc4ecf68[m
+Author: phil.nametheanimal <phil.nametheanimal@gmail.com>
+Date:   Fri Jun 5 09:34:46 2015 -0400
+
+    change blockquote in home.html layout, test codeanywhere
+
+[33mcommit 67a62a548b0f93e3fa4af36064b1cc3d89db03cd[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sat May 9 09:01:45 2015 -0400
+
+    remove search, remove posts, change index font to black
+
+[33mcommit 5cd1ea5a95fd8d5b34ef14ecc338949271dacecd[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Apr 8 11:16:09 2015 -0400
+
+    increase lead padding, change bg to no-repat x, change bg-background color to same as lead
+
+[33mcommit 5c8509f08c55f84f7adb7bdb0b39ad165d7cb67b[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Apr 8 11:01:10 2015 -0400
+
+    adjusted padding for smaller screens, parallax v1.2
+
+[33mcommit 1fc4fd5c891ef11c2c23141dc8443432095cda89[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Apr 8 06:14:03 2015 -0400
+
+    implement parallax scrolling v1
+
+[33mcommit 706884749bd89e05da8ab30ead3b875cb1931a59[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sat Apr 4 23:29:01 2015 -0400
+
+    update to small caps and revise blockquote
+
+[33mcommit e3d1ed34cf7fce6288bc39a3520abed77466ed97[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sat Apr 4 17:52:57 2015 -0400
+
+    insert svg logo in nav-brand
+
+[33mcommit 2ff4b914e710a157aa93645967d335da48da41e2[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sat Apr 4 15:59:17 2015 -0400
+
+    update header to add post per category counter and only display categories with posts in the menu.
+
+[33mcommit 5410928deb22eb5bfc1c664f8d1ead6d151d3127[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Fri Apr 3 09:51:00 2015 -0400
+
+    adjust homepage layout, use jumbotron and flexbox for prologue block, replace home post layout with default classes
+
+[33mcommit 6b6b6d062ca46f82e5e5f2f32878aa2db3087a1a[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Apr 1 16:26:53 2015 -0400
+
+    fix ref for mobile-first post
+
+[33mcommit 0384e29079788ef44fc1f34bc8a8a3cb378128f1[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Apr 1 16:16:12 2015 -0400
+
+    swap png posts with jpg
+
+[33mcommit b2079a0983451fe293f42fbf57df1c93688699cc[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Apr 1 16:04:15 2015 -0400
+
+    replace lightbox with swipebox
+
+[33mcommit a8663b674bc2d9bf19e6513322d3fe548fbffae5[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Apr 1 12:45:17 2015 -0400
+
+    optimize prof pic
+
+[33mcommit 5eab7340c16dee276f5d535c5c386ea1ff7ee469[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Apr 1 12:35:44 2015 -0400
+
+    optimize images for web
+
+[33mcommit f61f28a20b0b41f7c3d9a4a47aaac6f09721699c[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Apr 1 11:41:26 2015 -0400
+
+    add lightbox anchors to each img and pie htc to css mandala
+
+[33mcommit 6c6f9f5ac16999634024227c96ca60cfe1ff42cf[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Tue Mar 31 19:11:05 2015 -0400
+
+    replace home bg div with responsive img
+
+[33mcommit 62b6f9a11e21b5b98f9570d1d8a8c333fe054436[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Tue Mar 31 19:02:53 2015 -0400
+
+    update tagline for graphic page
+
+[33mcommit a49f8d47b627a884c79f510f3b3245e1a18a441d[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Tue Mar 31 19:01:31 2015 -0400
+
+    change tagline for audio page
+
+[33mcommit 7f285da4b31f46f2346f1c201eb5e09d19eb5fb0[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Tue Mar 31 18:59:40 2015 -0400
+
+    update taglines, digital content management and development
+
+[33mcommit c4aeb67d1a96c2e743ba7fba805cc02390b52b09[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Tue Mar 31 18:56:48 2015 -0400
+
+    revise home and footer tags
+
+[33mcommit 10b054c4960f6bc6c753313b9e27132f81f2810e[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Mon Mar 30 19:35:10 2015 -0400
+
+    add site base url to config
+
+[33mcommit d1c7b42859c9327ee2086b8eb05349446b5546c1[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Mon Mar 30 18:54:29 2015 -0400
+
+    move analytics to js.html
+
+[33mcommit e9747b3d2331471841cb100dda6e53c290942aed[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Mon Mar 30 18:51:42 2015 -0400
+
+    add google analytics to js in head
+
+[33mcommit d4b703858a370bbd56057c5bb7be15783c367118[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Mon Mar 23 14:28:05 2015 -0400
+
+    edit the pathnames to gifs, case-sensitive
+
+[33mcommit 9d6fcfe8b131d79639206c8f1b911721749128d8[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Mon Mar 23 14:19:43 2015 -0400
+
+    update gif posts
+
+[33mcommit 17a7f880232df522cd93938bf452356c4769e0e9[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Mon Mar 23 14:14:55 2015 -0400
+
+    add jpgif and murgif posts
+
+[33mcommit 22053e9757b52e45e93ef73f888efd6f0889fbb3[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 22 09:43:53 2015 -0400
+
+    change title of ilradicchio
+
+[33mcommit 75647b7f031cb55c924334577d58fb9f4ed4e672[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 22 09:37:47 2015 -0400
+
+    move code snippets to draft
+
+[33mcommit 3cbba34525ee6f19e4f4e9d8da2af401a0c626ba[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Mar 18 22:23:46 2015 -0400
+
+    revert to no jsonp until later edition
+
+[33mcommit 3dd76f9ef0523e50ef3eb6caecbc7a2f319c98e1[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Mar 18 22:19:01 2015 -0400
+
+    test ajax load
+
+[33mcommit c2fa8b3b7dccd94b35ec8522590fb375270b9724[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Mar 18 21:35:56 2015 -0400
+
+    change date on stencil post
+
+[33mcommit a165a2e71820508712a5fbf218412555433b44e4[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Mar 18 21:28:24 2015 -0400
+
+    add new posts, change prof statement
+
+[33mcommit d42eeb535a39d7915b9e7e735d360fc3c5eceee5[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Wed Mar 18 18:14:16 2015 -0400
+
+    place bandcamp posts in draft folder
+
+[33mcommit e1a148c1508f272b9d1aeca7a29e9eeafeac2ea7[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Tue Mar 17 20:55:21 2015 -0400
+
+    place stencil posts in drafts 2
+
+[33mcommit 0a648dee5746e6a5b50c941f4c769a95d30530e6[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Tue Mar 17 20:52:59 2015 -0400
+
+    place stencil posts in drafts
+
+[33mcommit f4fa6928e52aaa1152281b50b828dadb73be631a[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Tue Mar 17 20:48:16 2015 -0400
+
+    implement jscroll, add sample posts
+
+[33mcommit f4671f592ace80268112187f878c2223147ecf95[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 20:53:44 2015 -0400
+
+    set in progress posts to draft
+
+[33mcommit 8139621290824de9d448bf2d3e25f40d509a9436[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 18:04:21 2015 -0400
+
+    add site name to page titles
+
+[33mcommit 8e04b79e6c12cf71709a8c70655f672101c4d5e8[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 17:49:05 2015 -0400
+
+    update favicon href in head to appear on all pages
+
+[33mcommit 4a0248487282f49626ca79a380909f125209183e[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 14:22:30 2015 -0400
+
+    add style tags to css mandala post
+
+[33mcommit 6966c860947e54edf45e494cd5fc00caa7a6dd5d[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 14:20:40 2015 -0400
+
+    add css mandala post, update favicon ref in head
+
+[33mcommit 73cd0cf7b1994b4ecd1a54f1d1d5a17887caa527[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 13:08:51 2015 -0400
+
+    remove snapsvg from head
+
+[33mcommit 687f519f6238a0705ef3a608a5b760fa0b54730c[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 13:06:26 2015 -0400
+
+    remove jquery image fadein
+
+[33mcommit e0ffc5eb8e59d2fdcdbf69cab8e3342cd667a7c6[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 13:02:48 2015 -0400
+
+    add CNAME
+
+[33mcommit a555e55024038d0e0c49c614aec9367c48b794c0[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 12:05:45 2015 -0400
+
+    remove sample article, add flora flora playlist
+
+[33mcommit 63f71d09e42fbf8ed87ba6cf0127a3adba015a11[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 11:44:34 2015 -0400
+
+    update img jquery to fadein fast
+
+[33mcommit 312d44a707cac569cc2da78b490547f9a4f8cd7e[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 10:31:10 2015 -0400
+
+    replace cover image with more compressed version
+
+[33mcommit 560a20f8da4b07510bdc015fd71cc95a1f5d90d5[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 10:19:31 2015 -0400
+
+    replace cover image with compressed version
+
+[33mcommit 9a16c98d9afffd43b65a54a5dbdd6bc6434b2d08[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 10:08:27 2015 -0400
+
+    replace cover image with original uncropped version
+
+[33mcommit 8d8ac451507e6d4a5e20b06d306b3cfc8c3f18bc[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 10:03:38 2015 -0400
+
+    remove panel class
+
+[33mcommit 6ad8981eda9c5fdd7de73a89ff443d31be423d9f[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 09:47:44 2015 -0400
+
+    update cover max-height to test mobile
+
+[33mcommit 59d4210f2593af66f4ef86e95b4d297d24b2e551[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 09:40:31 2015 -0400
+
+    change background color to black for homepagecover
+
+[33mcommit c335c1d0b9b545128ce519d691aaf5b0e6fc6db1[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 09:31:54 2015 -0400
+
+    remove sample content, revise blockquotes, add image fadein on load
+
+[33mcommit 9cc79142bf859e619c6e457e4d4822e60e6e2b27[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 00:53:46 2015 -0400
+
+    revise site description, cleanup img dir
+
+[33mcommit 926dda5f32db41d012c21a988484882ca8bada87[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 15 00:41:32 2015 -0400
+
+    create homepage layout
+
+[33mcommit d351384b01bf7867746a63d26380dbb7850377e5[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Fri Mar 6 11:57:50 2015 -0500
+
+    add warning to config
+
+[33mcommit ed9f7db4fa7d13417346d3605da259362824188a[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Fri Mar 6 11:53:16 2015 -0500
+
+    test the includes
+
+[33mcommit 34122a31b952c7656ae0132275018a5f2a0d7811[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Fri Mar 6 11:42:56 2015 -0500
+
+    test github page build, modify layouts, pages, and index; build
+
+[33mcommit fbcb8c77d0f100410002e9d6515d42c170f9c44c[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Fri Mar 6 11:41:54 2015 -0500
+
+    test github page build, modify layouts, pages, and index
+
+[33mcommit cca8706f02856e9add3c12038e927bafa675aa09[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Fri Mar 6 11:38:29 2015 -0500
+
+    test github page build, modify config
+
+[33mcommit 3a8fbccdba699fe9dd8b1defa954c3bcc9b8e741[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Fri Mar 6 11:35:49 2015 -0500
+
+    install new jekyll 2
+
+[33mcommit f6174ac29e0611efe1eaa9c729655faef4073b6e[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Fri Mar 6 11:33:24 2015 -0500
+
+    install new jekyll
+
+[33mcommit 560ec81f2ff137d0807f5dc32ef6e78bce3d5b72[m
+Author: philgrayphilgray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 1 10:39:58 2015 -0500
+
+    create index.html (hello world test)
+
+[33mcommit 42601eca4270dc8ff11fae70cd9c175d6ee000ca[m
+Author: Phillip Gray <philgrayphilgray@gmail.com>
+Date:   Sun Mar 1 10:00:45 2015 -0500
+
+    Initial commit
