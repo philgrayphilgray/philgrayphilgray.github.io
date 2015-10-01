@@ -1,5 +1,6 @@
 # Site settings
 title: philgrayphilgray
+permalink: /:categories/:title
 email: philgrayphilgray@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Phil Gray is a writer, musician, and digital content developer.

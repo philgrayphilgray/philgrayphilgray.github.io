@@ -16,9 +16,8 @@ layout: default
 		  <thead>
 		  <tr>
 		  <a class="page-link" href="{{ post.url | prepend: site.baseurl }}"><p class="small-caps">{{ post.title }}</p></a>
-		  <span class="pull-right">
-		  {{ post.date | date: "%-m/%-d/%Y"}}
-		  </span>
+		 {% if page.author %} 
+			  <span class="pull-right">by {{ page.author }}</span>{% endif %}
 		  </tr>
 		  </thead>
 		 <tbody>
