@@ -8,4 +8,6 @@ quote: demo
 comments: true
 ---
 
-![](/uploads/versions/har---x----548-972x---.gif)
+<a href="/img/harm.gif" class="swipebox" title="JP Gif">
+<img src="/img/harm.gif" alt="HV repairing the pool cover" class="img img-responsive">
+</a>
