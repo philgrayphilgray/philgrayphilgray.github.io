@@ -8,6 +8,6 @@ quote: demo
 comments: true
 ---
 
-<a href="/img/harm.gif" class="swipebox" title="HV repairing the pool cover">
-<img src="/img/harm.gif" alt="HV repairing the pool cover" class="img img-responsive">
+<a href="/img/har.gif" class="swipebox" title="HV repairing the pool cover">
+<img src="/img/har.gif" alt="HV repairing the pool cover" class="img img-responsive">
 </a>
