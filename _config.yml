@@ -17,4 +17,3 @@ linkedin_url: http://www.linkedin.com/in/philgrayphilgray
 # Build settings
 # Warning: Adding highlighter will cause page build failure on github pages.
 markdown: kramdown
-highlighter: pygments
